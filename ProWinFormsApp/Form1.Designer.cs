@@ -23,24 +23,25 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.label1 = new System.Windows.Forms.Label();
+            this.onlyLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // onlyLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(300, 135);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "bro. This is pro.";
+            this.onlyLabel.AutoSize = true;
+            this.onlyLabel.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onlyLabel.Location = new System.Drawing.Point(300, 135);
+            this.onlyLabel.Name = "onlyLabel";
+            this.onlyLabel.Size = new System.Drawing.Size(268, 35);
+            this.onlyLabel.TabIndex = 0;
+            this.onlyLabel.Text = "bro. This is pro.";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.onlyLabel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -50,7 +51,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label onlyLabel;
     }
 }
 
